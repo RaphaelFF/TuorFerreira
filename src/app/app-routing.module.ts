@@ -10,7 +10,33 @@ const routes: Routes = [
   {
     path: 'folder/:id',
     loadChildren: () => import('./folder/folder.module').then( m => m.FolderPageModule)
+  },
+  {
+    path: 'conheca-fg/:id',
+    loadChildren: () => import('./conheca-fg/conheca-fg.module').then( m => m.ConhecaFGPageModule)
+  },
+  {
+    path: 'hotelaria/:id',
+    loadChildren: () => import('./hotelaria/hotelaria.module').then( m => m.HotelariaPageModule)
+  },
+  {
+    path: 'gastronomia/:id',
+    loadChildren: () => import('./gastronomia/gastronomia.module').then( m => m.GastronomiaPageModule)
+  },
+  {
+    path: 'comercio/:id',
+    loadChildren: () => import('./comercio/comercio.module').then( m => m.ComercioPageModule)
+  },
+  {
+    path: 'delivery/:id',
+    loadChildren: () => import('./delivery/delivery.module').then( m => m.DeliveryPageModule)
+  },
+  {
+    path: 'utilidade/:id',
+    loadChildren: () => import('./utilidade/utilidade.module').then( m => m.UtilidadePageModule)
   }
+
+
 ];
 
 @NgModule({

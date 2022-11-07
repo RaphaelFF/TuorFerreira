@@ -6,13 +6,13 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   public appPages = [
-    { title: 'Home', url: '/folder/Ferreira Gomes', icon: 'home' },
-    { title: 'Conheça Ferreira Gomes', url: '/folder/Conheça Ferreira Gomes', icon: 'map' },
-    { title: 'Hotelaria', url: '/folder/Hotelaria', icon: 'bed' },
-    { title: 'Gastronomia', url: '/folder/Gastronomia', icon: 'restaurant' },
-    { title: 'Comércios e Serviços', url: '/folder/Comércios e Serviços', icon: 'storefront' },
-    { title: 'Delivery', url: '/folder/Delivery', icon: 'fast-food' },
-    { title: 'Utilidade Pública', url: '/folder/Utilidade Pública', icon: 'call' },
+    { title: 'Home', url: '/folder/home', icon: 'home' },
+    { title: 'Conheça Ferreira Gomes', url: '/conheca-fg/ferreira', icon: 'map' },
+    { title: 'Hotelaria', url: '/hotelaria/Hotelaria', icon: 'bed' },
+    { title: 'Gastronomia', url: '/gastronomia/Gastronomia', icon: 'restaurant' },
+    { title: 'Comércios e Serviços', url: '/comercio/Comércios e Serviços', icon: 'storefront' },
+    { title: 'Delivery', url: '/delivery/Delivery', icon: 'fast-food' },
+    { title: 'Utilidade Pública', url: '/utilidade/Utilidade Publica', icon: 'call' },
   ];
   
 }
