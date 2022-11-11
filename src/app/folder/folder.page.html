@@ -9,9 +9,8 @@
 
 <ion-content class="principal">
   <section>
-   <ion-slides>
-
-   <ion-slide>
+    <ion-slides>
+      <ion-slide >
     <img src="https://th.bing.com/th/id/R.33c92039479f8f84f08463d77c29eb2d?rik=2Liaz1UcxuLyiA&riu=http%3a%2f%2fwww.exorbeo.com%2fwp-content%2fuploads%2f2016%2f08%2fcanais-em-hd-que-ainda-nao-existem-e1471894627145.jpg&ehk=tELos6ocjOib6Lptq%2f%2bfXvYJnYMMgkLykkFhcFc4Tak%3d&risl=&pid=ImgRaw&r=0" alt="ferreira"/>
    </ion-slide>
 
@@ -29,21 +28,21 @@
   <h1>O que Você Procura?</h1>
   <div class="row1">
    
-  <ion-card class="coluna"> 
+  <ion-card class="coluna" [routerLink]="['/conheca-fg/:id']" routerdirection="forward"> 
     <ion-card-content>
       <ion-icon name="map-sharp"></ion-icon> 
       <p>Conheça Ferreira Gomes</p>
     </ion-card-content>
   </ion-card>
   
-  <ion-card class="coluna"> 
+  <ion-card class="coluna" [routerLink]="['/hotelaria/:id']" routerdirection="forward"> 
     <ion-card-content>
       <ion-icon name="bed-sharp"></ion-icon>
       <p>Hotelaria</p>
     </ion-card-content>
   </ion-card>
 
-  <ion-card class="coluna">
+  <ion-card class="coluna" [routerLink]="['/gastronomia/:id']" routerdirection="forward">
     <ion-card-content>
       <ion-icon name="restaurant-sharp"></ion-icon>
       <p>Gastronomia</p>
@@ -52,21 +51,21 @@
   </div>
 
  <dir class="row2">
-  <ion-card class="coluna">
+  <ion-card class="coluna" [routerLink]="['/comercio/:id']" routerdirection="forward">
     <ion-card-content>
       <ion-icon name="storefront-sharp"></ion-icon>
       <p>Comércios e Serviços</p>
     </ion-card-content>
   </ion-card>
  
-  <ion-card class="coluna">
+  <ion-card class="coluna" [routerLink]="['/delivery/:id']" routerdirection="forward">
     <ion-card-content>
       <ion-icon name="fast-food-sharp"></ion-icon>
       <p>Delivery</p>
     </ion-card-content>
   </ion-card>
 
-  <ion-card class="coluna">
+  <ion-card class="coluna" [routerLink]="['/utilidade/:id']" routerdirection="forward">
     <ion-card-content>
       <ion-icon name="call-sharp"></ion-icon>
       <p>Utilidade Pública</p>

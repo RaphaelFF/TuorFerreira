@@ -7,7 +7,7 @@ import { Component } from '@angular/core';
 export class AppComponent {
   public appPages = [
     { title: 'Home', url: '/folder/home', icon: 'home' },
-    { title: 'Conheça Ferreira Gomes', url: '/conheca-fg/ferreira', icon: 'map' },
+    { title: 'Conheça Ferreira Gomes', url: '/conheca-fg/:id', icon: 'map' },
     { title: 'Hotelaria', url: '/hotelaria/Hotelaria', icon: 'bed' },
     { title: 'Gastronomia', url: '/gastronomia/Gastronomia', icon: 'restaurant' },
     { title: 'Comércios e Serviços', url: '/comercio/Comércios e Serviços', icon: 'storefront' },
