@@ -34,7 +34,15 @@ const routes: Routes = [
   {
     path: 'utilidade/:id',
     loadChildren: () => import('./utilidade/utilidade.module').then( m => m.UtilidadePageModule)
+  },  {
+    path: 'igreja',
+    loadChildren: () => import('./igreja/igreja.module').then( m => m.IgrejaPageModule)
+  },
+  {
+    path: 'igreja-p',
+    loadChildren: () => import('./igreja-p/igreja-p.module').then( m => m.IgrejaPPageModule)
   }
+
 
 
 ];
