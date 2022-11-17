@@ -12,15 +12,15 @@
     <ion-item slot="header" color="light">
       <ion-label>Historico de Ferreira Gomes</ion-label>
     </ion-item>
-    <div class="ion-padding" slot="content">sobre</div>
+    <div class="ion-padding" slot="content" [routerLink]="['/sobre']" routerdirection="forward">sobre</div>
   </ion-accordion>
   <ion-accordion value="second" toggleIcon="caret-down-circle" toggleIconSlot="start">
     <ion-item slot="header" color="light">
       <ion-label>Lugares para visitar</ion-label>
     </ion-item>
     <div class="ion-padding" slot="content" [routerLink]="['/igreja']" routerdirection="forward">Igrejas</div>
-    <div class="ion-padding" slot="content">Praças</div>
-    <div class="ion-padding" slot="content">Orla</div>
+    <div class="ion-padding" slot="content" [routerLink]="['/praca']" routerdirection="forward">Praças</div>
+    <div class="ion-padding" slot="content" [routerLink]="['/orla']" routerdirection="forward">Orla</div>
   </ion-accordion>
 </ion-accordion-group>
 </ion-content>

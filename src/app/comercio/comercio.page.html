@@ -8,21 +8,25 @@
 </ion-header>
 
 <ion-content>
-  <ion-list>
-    <ion-item>
-      <ion-thumbnail slot="start">
-        <img alt="Silhouette of mountains" src="https://ionicframework.com/docs/img/demos/thumbnail.svg" />
-      </ion-thumbnail>
-      <ion-label>Comercios em gerais</ion-label>
-    </ion-item>
+  <ion-accordion-group class="list">
+    <ion-accordion value="first" toggleIcon="caret-down-circle" toggleIconSlot="start">
+      <ion-item slot="header" color="light">
+        <ion-label>Comercios em Gerais</ion-label>
+      </ion-item>
+      <div class="ion-padding" slot="content" [routerLink]="['/supermecado']" routerdirection="forward">Supermecados e Mercadinhos</div>
+      <div class="ion-padding" slot="content" [routerLink]="['/construcao']" routerdirection="forward">Casa & Construção</div>
+      <div class="ion-padding" slot="content" [routerLink]="['/farmacia']" routerdirection="forward">Drograrias e Farmácias</div>
+      <div class="ion-padding" slot="content" [routerLink]="['/roupa']" routerdirection="forward">Loja de Roupas</div>
 
-    <ion-item>
-      <ion-thumbnail slot="start">
-        <img alt="Silhouette of mountains" src="https://ionicframework.com/docs/img/demos/thumbnail.svg" />
-      </ion-thumbnail>
-      <ion-label>Serviços em Gerais</ion-label>
-    </ion-item>
-    
-  </ion-list>
-
+    </ion-accordion>
+    <ion-accordion value="second" toggleIcon="caret-down-circle" toggleIconSlot="start">
+      <ion-item slot="header" color="light">
+        <ion-label>Serviços em Gerais</ion-label>
+      </ion-item>
+      <div class="ion-padding" slot="content" [routerLink]="['/mecanica']" routerdirection="forward">Auto Mecânica</div>
+      <div class="ion-padding" slot="content" [routerLink]="['/lavagem']" routerdirection="forward">Lavagem de carro/moto</div>
+      <div class="ion-padding" slot="content" [routerLink]="['/bicicleta']" routerdirection="forward">Oficina de Bicicleta</div>
+    </ion-accordion>
+  </ion-accordion-group>
+  
 </ion-content>
