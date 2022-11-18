@@ -7,20 +7,43 @@
   </ion-toolbar>
 </ion-header>
 <ion-content>
-<ion-accordion-group class="list">
-  <ion-accordion value="first" toggleIcon="caret-down-circle" toggleIconSlot="start">
-    <ion-item slot="header" color="light">
-      <ion-label>Historico de Ferreira Gomes</ion-label>
-    </ion-item>
-    <div class="ion-padding" slot="content" [routerLink]="['/sobre']" routerdirection="forward">sobre</div>
-  </ion-accordion>
+  <ion-accordion-group class="list">
+    <ion-accordion value="first" toggleIcon="caret-down-circle" toggleIconSlot="start">
+      <ion-item slot="header" color="light">
+        <ion-label>Historico de Ferreira Gomes</ion-label>
+      </ion-item>
+      <div class="ion-padding" slot="content" [routerLink]="['/sobre']" routerdirection="forward">
+        <ion-thumbnail slot="start">
+          <img alt="Silhouette of mountains" src="https://1.bp.blogspot.com/-YFGMmwohIIM/XrmYCm5PUEI/AAAAAAAAHAo/MCKbEk8aj0AANA1Ke3P1LI82R0zvn1fCwCLcBGAsYHQ/s1600/YY.jpg" />
+        </ion-thumbnail>
+        sobre
+      </div>
+    </ion-accordion>
+
   <ion-accordion value="second" toggleIcon="caret-down-circle" toggleIconSlot="start">
     <ion-item slot="header" color="light">
       <ion-label>Lugares para visitar</ion-label>
     </ion-item>
-    <div class="ion-padding" slot="content" [routerLink]="['/igreja']" routerdirection="forward">Igrejas</div>
-    <div class="ion-padding" slot="content" [routerLink]="['/praca']" routerdirection="forward">Praças</div>
-    <div class="ion-padding" slot="content" [routerLink]="['/orla']" routerdirection="forward">Orla</div>
+    <div class="ion-padding" slot="content" [routerLink]="['/igreja']" routerdirection="forward">
+      <ion-thumbnail slot="start">
+        <img alt="Silhouette of mountains" src="https://media.istockphoto.com/id/1285200634/pt/vetorial/church-thin-line-icon-christmas-concept-religious-temple-sign-on-white-background-house-of.jpg?s=612x612&w=is&k=20&c=3Qlkgz4jc__rZ_CddcoTo70yjHrJQd28OdGxF61GODk=" />
+      </ion-thumbnail>
+        Igrejas
+    </div>
+
+    <div class="ion-padding" slot="content" [routerLink]="['/praca']" routerdirection="forward">
+      <ion-thumbnail slot="start">
+        <img alt="Silhouette of mountains" src="https://th.bing.com/th/id/R.60cfd83ba7f240ab1f4b0e77a2eecf5c?rik=zqXr0nKf5L9ejw&pid=ImgRaw&r=0" />
+      </ion-thumbnail>
+        Praças
+    </div>
+
+    <div class="ion-padding" slot="content" [routerLink]="['/orla']" routerdirection="forward">
+      <ion-thumbnail slot="start">
+        <img alt="Silhouette of mountains" src="https://cdn.icon-icons.com/icons2/644/PNG/96/grey_beach-chair-and-umbrella_icon-icons.com_59443.png" />
+      </ion-thumbnail>
+        Orla
+    </div>
   </ion-accordion>
 </ion-accordion-group>
 </ion-content>

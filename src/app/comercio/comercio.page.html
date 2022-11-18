@@ -13,19 +13,60 @@
       <ion-item slot="header" color="light">
         <ion-label>Comercios em Gerais</ion-label>
       </ion-item>
-      <div class="ion-padding" slot="content" [routerLink]="['/supermecado']" routerdirection="forward">Supermecados e Mercadinhos</div>
-      <div class="ion-padding" slot="content" [routerLink]="['/construcao']" routerdirection="forward">Casa & Construção</div>
-      <div class="ion-padding" slot="content" [routerLink]="['/farmacia']" routerdirection="forward">Drograrias e Farmácias</div>
-      <div class="ion-padding" slot="content" [routerLink]="['/roupa']" routerdirection="forward">Loja de Roupas</div>
+      <div class="ion-padding" slot="content" [routerLink]="['/supermecado']" routerdirection="forward">
+        <ion-thumbnail slot="start">
+          <img alt="Silhouette of mountains" src="https://th.bing.com/th/id/OIP.G2IGZlnDvlSgUg2QMllKGgHaHa?pid=ImgDet&rs=1" />
+        </ion-thumbnail>
+          Supermecados e Mercadinhos
+      </div>
+
+      <div class="ion-padding" slot="content" [routerLink]="['/construcao']" routerdirection="forward">
+        <ion-thumbnail slot="start">
+          <img alt="Silhouette of mountains" src="https://th.bing.com/th/id/OIP.F7pkd4Y_fnUQV_yxQDcBkAHaHa?w=169&h=180&c=7&r=0&o=5&dpr=1.1&pid=1.7" />
+        </ion-thumbnail>
+          Casa & Construção
+      </div>
+
+      <div class="ion-padding" slot="content" [routerLink]="['/farmacia']" routerdirection="forward">
+        <ion-thumbnail slot="start">
+          <img alt="Silhouette of mountains" src="https://th.bing.com/th/id/OIP.Q35ZtUn2FuUEitwJ9C-fMQHaHa?w=179&h=180&c=7&r=0&o=5&dpr=1.1&pid=1.7" />
+        </ion-thumbnail>
+          Drograrias e Farmácias
+      </div>
+
+      <div class="ion-padding" slot="content" [routerLink]="['/roupa']" routerdirection="forward">
+        <ion-thumbnail slot="start">
+          <img alt="Silhouette of mountains" src="https://th.bing.com/th/id/R.7d54b0547a934c777fb0c8730c308dab?rik=9IAtAE6WR4sJ8g&pid=ImgRaw&r=0" />
+        </ion-thumbnail>
+          Loja de Roupas
+      </div>
 
     </ion-accordion>
     <ion-accordion value="second" toggleIcon="caret-down-circle" toggleIconSlot="start">
       <ion-item slot="header" color="light">
         <ion-label>Serviços em Gerais</ion-label>
       </ion-item>
-      <div class="ion-padding" slot="content" [routerLink]="['/mecanica']" routerdirection="forward">Auto Mecânica</div>
-      <div class="ion-padding" slot="content" [routerLink]="['/lavagem']" routerdirection="forward">Lavagem de carro/moto</div>
-      <div class="ion-padding" slot="content" [routerLink]="['/bicicleta']" routerdirection="forward">Oficina de Bicicleta</div>
+
+      <div class="ion-padding" slot="content" [routerLink]="['/mecanica']" routerdirection="forward">
+        <ion-thumbnail slot="start">
+          <img alt="Silhouette of mountains" src="https://th.bing.com/th/id/R.16916b0597c57ca36f0b125f9c5d0977?rik=pcFhLfwQZZilHQ&riu=http%3a%2f%2fcdn.onlinewebfonts.com%2fsvg%2fimg_8831.png&ehk=io3EdScBGc1udR6uf%2bCZ20cLTbevcsa9iSHoIx6vsf0%3d&risl=&pid=ImgRaw&r=0" />
+        </ion-thumbnail>
+          Auto Mecânica
+      </div>
+
+      <div class="ion-padding" slot="content" [routerLink]="['/lavagem']" routerdirection="forward">
+        <ion-thumbnail slot="start">
+          <img alt="Silhouette of mountains" src="https://th.bing.com/th/id/OIP.oxRjPuBWcxQt-Cj-oysoBgHaI2?pid=ImgDet&w=820&h=980&rs=1" />
+        </ion-thumbnail>
+          Lavagem de carro/moto
+      </div>
+
+      <div class="ion-padding" slot="content" [routerLink]="['/bicicleta']" routerdirection="forward">
+        <ion-thumbnail slot="start">
+          <img alt="Silhouette of mountains" src="https://th.bing.com/th/id/R.7e460932706be900ce07231fbf28ff69?rik=fDWGZVgz683VWQ&pid=ImgRaw&r=0" />
+        </ion-thumbnail>
+          Oficina de Bicicleta
+      </div>
     </ion-accordion>
   </ion-accordion-group>
   

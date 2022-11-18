@@ -21,7 +21,7 @@ ion-slides{
   margin: auto;
   padding-left: 0;
   height: 135px;
-  margin-bottom: 60px;
+  margin-bottom: 30px;
 }
 .coluna{
   width: 33.33%;
@@ -55,6 +55,12 @@ ion-icon{
   height: 100%;
   width: 100%;
   margin-left: 0px;
+}
+.fm{
+  display: flex;
+  margin: 0;
+  border-radius: 40px;
+  margin-bottom: 60px;
 }
 
 
