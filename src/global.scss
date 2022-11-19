@@ -29,11 +29,17 @@
 @import "~@ionic/angular/css/flex-utils.css";
 
 :root{
-    --ion-font-family: arial;
+    --ion-font-family: 'Bree Serif', serif;
+
+    --ion-toolbar-background: #006400;
+    --ion-toolbar-color: white;
     
 }
-.ios {
-    --ion-text-color: green;
-  }
+
+
+.titulo{
+    text-align: center;
+    margin-left: -50px;
+}
 
 
