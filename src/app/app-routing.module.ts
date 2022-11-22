@@ -102,7 +102,22 @@ const routes: Routes = [
   {
     path: 'bicicleta',
     loadChildren: () => import('./comercio/mecanica/bicicleta/bicicleta.module').then( m => m.BicicletaPageModule)
+  },
+  {
+    path: 'rio-mar',
+    loadChildren: () => import('./hotelaria/hotel/rio-mar/rio-mar.module').then( m => m.RioMarPageModule)
+  },
+  {
+    path: 'hotel-mais',
+    loadChildren: () => import('./hotelaria/hotel/hotel-mais/hotel-mais.module').then( m => m.HotelMaisPageModule)
+  },
+  {
+    path: 'lima',
+    loadChildren: () => import('./hotelaria/pousada/lima/lima.module').then( m => m.LimaPageModule)
   }
+
+
+
 
 
 
