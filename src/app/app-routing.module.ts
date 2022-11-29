@@ -114,7 +114,12 @@ const routes: Routes = [
   {
     path: 'lima',
     loadChildren: () => import('./hotelaria/pousada/lima/lima.module').then( m => m.LimaPageModule)
+  },
+  {
+    path: 'radio-fm',
+    loadChildren: () => import('./radio-fm/radio-fm.module').then( m => m.RadioFmPageModule)
   }
+
 
 
 
