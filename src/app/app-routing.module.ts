@@ -101,7 +101,7 @@ const routes: Routes = [
   },
   {
     path: 'bicicleta',
-    loadChildren: () => import('./comercio/mecanica/bicicleta/bicicleta.module').then( m => m.BicicletaPageModule)
+    loadChildren: () => import('./comercio/bicicleta/bicicleta.module').then( m => m.BicicletaPageModule)
   },
   {
     path: 'rio-mar',
