@@ -28,9 +28,7 @@
 
 :root{
     --ion-font-family: 'Bree Serif', serif;    
-}
 
-ion-toolbar{
     --ion-toolbar-background: #006400;
     --ion-toolbar-color: white;
 }
@@ -43,7 +41,11 @@ ion-toolbar{
 ion-content{
 
     --ion-background-color:white;
+    color: black;
 }
+.md {
+    --ion-text-color: black;
+  }
 
 
 
