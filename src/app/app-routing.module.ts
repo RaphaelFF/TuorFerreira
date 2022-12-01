@@ -118,7 +118,55 @@ const routes: Routes = [
   {
     path: 'radio-fm',
     loadChildren: () => import('./radio-fm/radio-fm.module').then( m => m.RadioFmPageModule)
-  }
+  },
+  {
+    path: 'veiga',
+    loadChildren: () => import('./conheca-fg/praca/veiga/veiga.module').then( m => m.VeigaPageModule)
+  },
+   {
+    path: 'floriano-peixoto',
+    loadChildren: () => import('./conheca-fg/praca/floriano-peixoto/floriano-peixoto.module').then( m => m.FlorianoPeixotoPageModule)
+  },
+  {
+    path: 'sao-jose',
+    loadChildren: () => import('./conheca-fg/praca/sao-jose/sao-jose.module').then( m => m.SaoJosePageModule)
+  },
+  {
+    path: 'sao-domingos',
+    loadChildren: () => import('./conheca-fg/igreja/sao-domingos/sao-domingos.module').then( m => m.SaoDomingosPageModule)
+  },
+  {
+    path: 'assembleia',
+    loadChildren: () => import('./conheca-fg/igreja/assembleia/assembleia.module').then( m => m.AssembleiaPageModule)
+  },
+  {
+    path: 'adventista',
+    loadChildren: () => import('./conheca-fg/igreja/adventista/adventista.module').then( m => m.AdventistaPageModule)
+  },
+
+  {
+    path: 'pao-do-bom',
+    loadChildren: () => import('./gastronomia/padaria/pao-do-bom/pao-do-bom.module').then( m => m.PaoDoBomPageModule)
+  },
+  {
+    path: 'sabor-da-terra',
+    loadChildren: () => import('./gastronomia/restaurante/sabor-da-terra/sabor-da-terra.module').then( m => m.SaborDaTerraPageModule)
+  },
+  {
+    path: 'amazonas-restaurante',
+    loadChildren: () => import('./gastronomia/restaurante/amazonas-restaurante/amazonas-restaurante.module').then( m => m.AmazonasRestaurantePageModule)
+  },
+  {
+    path: 'maresia',
+    loadChildren: () => import('./hotelaria/pousada/maresia/maresia.module').then( m => m.MaresiaPageModule)
+  },
+  {
+    path: 'mercantil-ferreirense',
+    loadChildren: () => import('./comercio/supermecado/mercantil-ferreirense/mercantil-ferreirense.module').then( m => m.MercantilFerreirensePageModule)
+  },
+ 
+  
+ 
 
 
 

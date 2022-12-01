@@ -1,12 +1,36 @@
 <ion-header>
-  <ion-toolbar>
-    <ion-buttons slot="start">
-      <ion-back-button></ion-back-button>
-    </ion-buttons>
-    <ion-title>Restaurantes</ion-title>
-  </ion-toolbar>
+    <ion-toolbar>
+        <ion-buttons slot="start">
+            <ion-back-button></ion-back-button>
+        </ion-buttons>
+        <ion-title>Restaurantes</ion-title>
+    </ion-toolbar>
 </ion-header>
 
 <ion-content>
+    <ion-card class="ima" [routerLink]="['/sabor-da-terra']" routerdirection="forward">
+        <img alt="Silhouette of mountains" src="https://media-cdn.tripadvisor.com/media/photo-s/1b/f8/67/02/fachada-sabor-da-terra.jpg" />
+        <ion-card-header>
+            <ion-card-title>Sabor Da Terra</ion-card-title>
+            <ion-card-subtitle>Centro</ion-card-subtitle>
+        </ion-card-header>
+
+        <ion-card-content>
+            Toque para saber mais...
+        </ion-card-content>
+    </ion-card>
+
+
+    <ion-card class="ima" [routerLink]="['/amazonas-restaurante']" routerdirection="forward">
+        <img alt="Silhouette of mountains" src="https://media-cdn.tripadvisor.com/media/photo-m/1280/1a/a1/14/0e/photo0jpg.jpg" />
+        <ion-card-header>
+            <ion-card-title>Restaurante Amazonas</ion-card-title>
+            <ion-card-subtitle>Centro</ion-card-subtitle>
+        </ion-card-header>
+
+        <ion-card-content>
+            Toque para saber mais...
+        </ion-card-content>
+    </ion-card>
 
 </ion-content>
