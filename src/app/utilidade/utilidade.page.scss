@@ -1,0 +1,14 @@
+.tab {
+    /* alinhamento da tabela */
+    margin-block: 15px;
+    width: 90%;
+    border-spacing: revert;
+    border-collapse: unset;
+    margin-left: 5%;
+    text-align: left;
+}
+
+th {
+    background-color: #006400;
+    color: white;
+}
