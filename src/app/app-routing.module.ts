@@ -164,6 +164,11 @@ const routes: Routes = [
     path: 'mercantil-ferreirense',
     loadChildren: () => import('./comercio/supermecado/mercantil-ferreirense/mercantil-ferreirense.module').then( m => m.MercantilFerreirensePageModule)
   },
+  {
+    path: 'sao-miguel',
+    loadChildren: () => import('./comercio/construcao/sao-miguel/sao-miguel.module').then( m => m.SaoMiguelPageModule)
+  },
+
  
   
  
