@@ -1,12 +1,27 @@
-<ion-header>
-  <ion-toolbar>
-    <ion-buttons slot="start">
-      <ion-back-button></ion-back-button>
-    </ion-buttons>
-    <ion-title>Mecânica</ion-title>
-  </ion-toolbar>
-</ion-header>
-
 <ion-content>
+    <ion-card class="ima" [routerLink]="['/auto-center']" routerdirection="forward">
+        <img alt="Silhouette of mountains" src="https://www.doutorie.com.br/blog/wp-content/uploads/2020/06/Capa-blog.jpg" />
+        <ion-card-header>
+            <ion-card-title> Oficina Auto Center</ion-card-title>
+            <ion-card-subtitle>Centro</ion-card-subtitle>
+        </ion-card-header>
+
+        <ion-card-content>
+            Toque para saber mais...
+        </ion-card-content>
+    </ion-card>
+
+
+    <ion-card class="ima" [routerLink]="['/fgmecanica']" routerdirection="forward">
+        <img alt="Silhouette of mountains" src="https://chiptronic.com.br/blog/wp-content/uploads/2016/08/4-dicas-de-mec%C3%A2nica-para-motos-que-voc%C3%AA-precisa-conhecer.jpeg" />
+        <ion-card-header>
+            <ion-card-title> FG Mecânica </ion-card-title>
+            <ion-card-subtitle>Centro</ion-card-subtitle>
+        </ion-card-header>
+
+        <ion-card-content>
+            Toque para saber mais...
+        </ion-card-content>
+    </ion-card>
 
 </ion-content>

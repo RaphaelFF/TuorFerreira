@@ -1,12 +1,36 @@
 <ion-header>
-  <ion-toolbar>
-    <ion-buttons slot="start">
-      <ion-back-button></ion-back-button>
-    </ion-buttons>
-    <ion-title>Supermecado</ion-title>
-  </ion-toolbar>
+    <ion-toolbar>
+        <ion-buttons slot="start">
+            <ion-back-button></ion-back-button>
+        </ion-buttons>
+        <ion-title>Supermercados e Mercadinhos</ion-title>
+    </ion-toolbar>
 </ion-header>
 
 <ion-content>
+    <ion-card class="ima" [routerLink]="['/mercantil-ferreirense']" routerdirection="forward">
+        <img alt="Silhouette of mountains" src="https://img.freepik.com/fotos-gratis/supermercado-de-borrao-abstrata-e-loja-de-varejo_74190-7546.jpg?w=2000" />
+        <ion-card-header>
+            <ion-card-title>Mercantil Ferreirense</ion-card-title>
+            <ion-card-subtitle>Centro</ion-card-subtitle>
+        </ion-card-header>
+
+        <ion-card-content>
+            Toque para saber mais...
+        </ion-card-content>
+    </ion-card>
+
+
+    <ion-card class="ima" [routerLink]="['/meioa-meio']" routerdirection="forward">
+        <img alt="Silhouette of mountains" src="https://pr1.nicelocal.br.com/rSIYsxFKKDi5EUMSmDJwtQ/1120x700,q85/4px-BW84_n0QJGVPszge3NRBsKw-2VcOifrJIjPYFYkOtaCZxxXQ2cFbGjCCz8ZRSlbRpJ-DKh1mnmrovlxFiwr5Y9xmnI2ImO09h6hPV0Qp5vH024qeFQ" />
+        <ion-card-header>
+            <ion-card-title>Comercial Meio a Meio</ion-card-title>
+            <ion-card-subtitle>Centro</ion-card-subtitle>
+        </ion-card-header>
+
+        <ion-card-content>
+            Toque para saber mais...
+        </ion-card-content>
+    </ion-card>
 
 </ion-content>

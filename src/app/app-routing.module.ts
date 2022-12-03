@@ -165,8 +165,54 @@ const routes: Routes = [
     loadChildren: () => import('./comercio/supermecado/mercantil-ferreirense/mercantil-ferreirense.module').then( m => m.MercantilFerreirensePageModule)
   },
   {
+
     path: 'sao-miguel',
     loadChildren: () => import('./comercio/construcao/sao-miguel/sao-miguel.module').then( m => m.SaoMiguelPageModule)
+  },
+
+{
+    path: 'meioa-meio',
+    loadChildren: () => import('./comercio/supermecado/meioa-meio/meioa-meio.module').then( m => m.MeioaMeioPageModule)
+  },
+  {
+    path: 'sao-miguel',
+    loadChildren: () => import('./comercio/construcao/sao-miguel/sao-miguel.module').then( m => m.SaoMiguelPageModule)
+  },
+  {
+    path: 'fgconstrucao',
+    loadChildren: () => import('./comercio/construcao/fgconstrucao/fgconstrucao.module').then( m => m.FGConstrucaoPageModule)
+  },
+  {
+    path: 'drogasil',
+    loadChildren: () => import('./comercio/farmacia/drogasil/drogasil.module').then( m => m.DrogasilPageModule)
+  },
+  {
+    path: 'pague-menos',
+    loadChildren: () => import('./comercio/farmacia/pague-menos/pague-menos.module').then( m => m.PagueMenosPageModule)
+  },
+  {
+    path: 'moda-fashion',
+    loadChildren: () => import('./comercio/roupa/moda-fashion/moda-fashion.module').then( m => m.ModaFashionPageModule)
+  },
+  {
+    path: 'multi-modas',
+    loadChildren: () => import('./comercio/roupa/multi-modas/multi-modas.module').then( m => m.MultiModasPageModule)
+  },
+  {
+    path: 'auto-center',
+    loadChildren: () => import('./comercio/mecanica/auto-center/auto-center.module').then( m => m.AutoCenterPageModule)
+  },
+  {
+    path: 'fgmecanica',
+    loadChildren: () => import('./comercio/mecanica/fgmecanica/fgmecanica.module').then( m => m.FGMecanicaPageModule)
+  },
+  {
+    path: 'gomes',
+    loadChildren: () => import('./comercio/lavagem/gomes/gomes.module').then( m => m.GomesPageModule)
+  },
+  {
+    path: 'ferreira',
+    loadChildren: () => import('./comercio/lavagem/ferreira/ferreira.module').then( m => m.FerreiraPageModule)
   },
 
  
