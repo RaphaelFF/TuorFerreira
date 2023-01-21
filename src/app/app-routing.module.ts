@@ -214,6 +214,11 @@ const routes: Routes = [
     path: 'ferreira',
     loadChildren: () => import('./comercio/lavagem/ferreira/ferreira.module').then( m => m.FerreiraPageModule)
   },
+  {
+    path: 'kemia-silva',
+    loadChildren: () => import('./comercio/supermecado/kemia-silva/kemia-silva.module').then( m => m.KemiaSilvaPageModule)
+  },
+
 
  
   
